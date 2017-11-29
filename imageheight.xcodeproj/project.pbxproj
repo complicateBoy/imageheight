@@ -7,15 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181168EE1FB579800046FD51 /* NSURL+HCURLCharacters.m in Sources */ = {isa = PBXBuildFile; fileRef = 181168ED1FB5797F0046FD51 /* NSURL+HCURLCharacters.m */; };
 		181814D91FB49B690045A65B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 181814D81FB49B690045A65B /* AppDelegate.m */; };
 		181814DC1FB49B690045A65B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 181814DB1FB49B690045A65B /* ViewController.m */; };
 		181814DF1FB49B690045A65B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181814DD1FB49B690045A65B /* Main.storyboard */; };
 		181814E11FB49B690045A65B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 181814E01FB49B690045A65B /* Assets.xcassets */; };
 		181814E41FB49B690045A65B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181814E21FB49B690045A65B /* LaunchScreen.storyboard */; };
 		181814E71FB49B690045A65B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 181814E61FB49B690045A65B /* main.m */; };
+		181814EF1FB49D9C0045A65B /* HCimageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 181814EE1FB49D9C0045A65B /* HCimageCell.m */; };
+		18BBCF081FC8704300BD0EC8 /* HCGuDingImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BBCF071FC8704300BD0EC8 /* HCGuDingImageCell.m */; };
+		18BBCF0B1FC8707000BD0EC8 /* HCBianHuaImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BBCF0A1FC8707000BD0EC8 /* HCBianHuaImageCell.m */; };
+		18BBCF0E1FC8740E00BD0EC8 /* HCCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BBCF0D1FC8740E00BD0EC8 /* HCCollectionViewController.m */; };
+		18BBCF111FC8746800BD0EC8 /* sasCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BBCF101FC8746800BD0EC8 /* sasCollectionViewController.m */; };
+		18BBCF131FC877A800BD0EC8 /* HCimg.plist in Resources */ = {isa = PBXBuildFile; fileRef = 18BBCF121FC877A800BD0EC8 /* HCimg.plist */; };
+		18BBCF191FC8819600BD0EC8 /* HCImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BBCF181FC8819600BD0EC8 /* HCImageModel.m */; };
+		18C1F3841FB9A5B20021EF65 /* HCBimageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C1F3831FB9A5B20021EF65 /* HCBimageCell.m */; };
+		7CC80FD4E54CF3F7BFF1F6C1 /* libPods-imageheight.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 686A5FFB0D2268F1E87A40B9 /* libPods-imageheight.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		181168EC1FB5797F0046FD51 /* NSURL+HCURLCharacters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSURL+HCURLCharacters.h"; sourceTree = SOURCE_ROOT; };
+		181168ED1FB5797F0046FD51 /* NSURL+HCURLCharacters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSURL+HCURLCharacters.m"; sourceTree = SOURCE_ROOT; };
+		181168EF1FB58CE70046FD51 /* HCHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCHeader.h; sourceTree = "<group>"; };
 		181814D41FB49B690045A65B /* imageheight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imageheight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		181814D71FB49B690045A65B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		181814D81FB49B690045A65B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +39,24 @@
 		181814E31FB49B690045A65B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		181814E51FB49B690045A65B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		181814E61FB49B690045A65B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		181814ED1FB49D9C0045A65B /* HCimageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCimageCell.h; sourceTree = "<group>"; };
+		181814EE1FB49D9C0045A65B /* HCimageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCimageCell.m; sourceTree = "<group>"; };
+		18BBCF061FC8704300BD0EC8 /* HCGuDingImageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCGuDingImageCell.h; sourceTree = "<group>"; };
+		18BBCF071FC8704300BD0EC8 /* HCGuDingImageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCGuDingImageCell.m; sourceTree = "<group>"; };
+		18BBCF091FC8707000BD0EC8 /* HCBianHuaImageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCBianHuaImageCell.h; sourceTree = "<group>"; };
+		18BBCF0A1FC8707000BD0EC8 /* HCBianHuaImageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCBianHuaImageCell.m; sourceTree = "<group>"; };
+		18BBCF0C1FC8740E00BD0EC8 /* HCCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCCollectionViewController.h; sourceTree = "<group>"; };
+		18BBCF0D1FC8740E00BD0EC8 /* HCCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCCollectionViewController.m; sourceTree = "<group>"; };
+		18BBCF0F1FC8746800BD0EC8 /* sasCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sasCollectionViewController.h; sourceTree = "<group>"; };
+		18BBCF101FC8746800BD0EC8 /* sasCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = sasCollectionViewController.m; sourceTree = "<group>"; };
+		18BBCF121FC877A800BD0EC8 /* HCimg.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = HCimg.plist; sourceTree = "<group>"; };
+		18BBCF171FC8819600BD0EC8 /* HCImageModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCImageModel.h; sourceTree = "<group>"; };
+		18BBCF181FC8819600BD0EC8 /* HCImageModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCImageModel.m; sourceTree = "<group>"; };
+		18C1F3821FB9A5B20021EF65 /* HCBimageCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HCBimageCell.h; sourceTree = "<group>"; };
+		18C1F3831FB9A5B20021EF65 /* HCBimageCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HCBimageCell.m; sourceTree = "<group>"; };
+		2A4144EC8868BCAA5753C2D6 /* Pods-imageheight.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-imageheight.debug.xcconfig"; path = "Pods/Target Support Files/Pods-imageheight/Pods-imageheight.debug.xcconfig"; sourceTree = "<group>"; };
+		686A5FFB0D2268F1E87A40B9 /* libPods-imageheight.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-imageheight.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA4DF5D33AB922E1320EB8DD /* Pods-imageheight.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-imageheight.release.xcconfig"; path = "Pods/Target Support Files/Pods-imageheight/Pods-imageheight.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7CC80FD4E54CF3F7BFF1F6C1 /* libPods-imageheight.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,8 +74,11 @@
 		181814CB1FB49B690045A65B = {
 			isa = PBXGroup;
 			children = (
+				181168EF1FB58CE70046FD51 /* HCHeader.h */,
 				181814D61FB49B690045A65B /* imageheight */,
 				181814D51FB49B690045A65B /* Products */,
+				9893052EAB38541E67038C62 /* Pods */,
+				389472762762CEB6CDD4A8BD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +93,9 @@
 		181814D61FB49B690045A65B /* imageheight */ = {
 			isa = PBXGroup;
 			children = (
+				18BBCF051FC86FCF00BD0EC8 /* View */,
+				181168EC1FB5797F0046FD51 /* NSURL+HCURLCharacters.h */,
+				181168ED1FB5797F0046FD51 /* NSURL+HCURLCharacters.m */,
 				181814D71FB49B690045A65B /* AppDelegate.h */,
 				181814D81FB49B690045A65B /* AppDelegate.m */,
 				181814DA1FB49B690045A65B /* ViewController.h */,
@@ -67,8 +105,47 @@
 				181814E21FB49B690045A65B /* LaunchScreen.storyboard */,
 				181814E51FB49B690045A65B /* Info.plist */,
 				181814E61FB49B690045A65B /* main.m */,
+				18BBCF0C1FC8740E00BD0EC8 /* HCCollectionViewController.h */,
+				18BBCF0D1FC8740E00BD0EC8 /* HCCollectionViewController.m */,
+				18BBCF0F1FC8746800BD0EC8 /* sasCollectionViewController.h */,
+				18BBCF101FC8746800BD0EC8 /* sasCollectionViewController.m */,
+				18BBCF061FC8704300BD0EC8 /* HCGuDingImageCell.h */,
+				18BBCF071FC8704300BD0EC8 /* HCGuDingImageCell.m */,
+				18BBCF091FC8707000BD0EC8 /* HCBianHuaImageCell.h */,
+				18BBCF0A1FC8707000BD0EC8 /* HCBianHuaImageCell.m */,
+				18BBCF171FC8819600BD0EC8 /* HCImageModel.h */,
+				18BBCF181FC8819600BD0EC8 /* HCImageModel.m */,
+				18BBCF121FC877A800BD0EC8 /* HCimg.plist */,
 			);
 			path = imageheight;
+			sourceTree = "<group>";
+		};
+		18BBCF051FC86FCF00BD0EC8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				181814ED1FB49D9C0045A65B /* HCimageCell.h */,
+				181814EE1FB49D9C0045A65B /* HCimageCell.m */,
+				18C1F3821FB9A5B20021EF65 /* HCBimageCell.h */,
+				18C1F3831FB9A5B20021EF65 /* HCBimageCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		389472762762CEB6CDD4A8BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				686A5FFB0D2268F1E87A40B9 /* libPods-imageheight.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9893052EAB38541E67038C62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A4144EC8868BCAA5753C2D6 /* Pods-imageheight.debug.xcconfig */,
+				BA4DF5D33AB922E1320EB8DD /* Pods-imageheight.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 181814EA1FB49B690045A65B /* Build configuration list for PBXNativeTarget "imageheight" */;
 			buildPhases = (
+				1289A6D02FCDA6305F1EE757 /* [CP] Check Pods Manifest.lock */,
 				181814D01FB49B690045A65B /* Sources */,
 				181814D11FB49B690045A65B /* Frameworks */,
 				181814D21FB49B690045A65B /* Resources */,
+				EAFECEBA101D4981F657344F /* [CP] Embed Pods Frameworks */,
+				0A7ED181CF20DF98223131C2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				181814E41FB49B690045A65B /* LaunchScreen.storyboard in Resources */,
+				18BBCF131FC877A800BD0EC8 /* HCimg.plist in Resources */,
 				181814E11FB49B690045A65B /* Assets.xcassets in Resources */,
 				181814DF1FB49B690045A65B /* Main.storyboard in Resources */,
 			);
@@ -137,13 +218,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A7ED181CF20DF98223131C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-imageheight/Pods-imageheight-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1289A6D02FCDA6305F1EE757 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EAFECEBA101D4981F657344F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-imageheight/Pods-imageheight-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		181814D01FB49B690045A65B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18BBCF191FC8819600BD0EC8 /* HCImageModel.m in Sources */,
+				18BBCF111FC8746800BD0EC8 /* sasCollectionViewController.m in Sources */,
 				181814DC1FB49B690045A65B /* ViewController.m in Sources */,
 				181814E71FB49B690045A65B /* main.m in Sources */,
+				181814EF1FB49D9C0045A65B /* HCimageCell.m in Sources */,
+				18C1F3841FB9A5B20021EF65 /* HCBimageCell.m in Sources */,
+				181168EE1FB579800046FD51 /* NSURL+HCURLCharacters.m in Sources */,
+				18BBCF0B1FC8707000BD0EC8 /* HCBianHuaImageCell.m in Sources */,
+				18BBCF0E1FC8740E00BD0EC8 /* HCCollectionViewController.m in Sources */,
+				18BBCF081FC8704300BD0EC8 /* HCGuDingImageCell.m in Sources */,
 				181814D91FB49B690045A65B /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,7 +355,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -267,7 +404,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -276,6 +413,7 @@
 		};
 		181814EB1FB49B690045A65B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A4144EC8868BCAA5753C2D6 /* Pods-imageheight.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -290,6 +428,7 @@
 		};
 		181814EC1FB49B690045A65B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA4DF5D33AB922E1320EB8DD /* Pods-imageheight.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
